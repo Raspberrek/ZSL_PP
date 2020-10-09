@@ -36,6 +36,11 @@ public:
 };
 struct zoo {
 	vector<zwierze> w_z;
+	zoo(int l) {
+		for (int i = 0; i < l; i++) {
+			w_z.push_back(zwierze());
+		};
+	};
 };
 
 int main() {
