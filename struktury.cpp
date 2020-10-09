@@ -41,11 +41,20 @@ struct zoo {
 			w_z.push_back(zwierze());
 		};
 	};
+	void wyswietl() {
+		for (int i = 0; i<w_z.size() ;i++) {
+			w_z[i].wyswietlInformacje();
+		};
+	};
 };
 
 int main() {
 	srand(time(NULL));
-	zwierze kon;
-	kon.nadajTyp();
-	kon.wyswietlInformacje(); 
+	//zwierze kon;
+	//kon.nadajTyp();
+	//kon.wyswietlInformacje(); 
+
+	zoo zoo1(10);
+	zoo1.wyswietl();
+	return 0;
 }
