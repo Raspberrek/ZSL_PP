@@ -56,5 +56,8 @@ int main() {
 
 	zoo zoo1(10);
 	zoo1.wyswietl();
+	zoo1.w_z.push_back(zwierze());
+	cout << endl;
+	zoo1.wyswietl();
 	return 0;
 }
