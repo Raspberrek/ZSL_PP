@@ -75,6 +75,9 @@ int main() {
 	zoo1.w_z.push_back(zwierze());
 	cout << endl;
 	zoo1.wyswietl();
+	cout << zoo1.liczba_rodzaju(0) << " " << zoo1.liczba_rodzaju(1) <<endl;
+	zoo1.generuj_kolejki();
+	cout << zoo1.q_z_m.size() << " " << zoo1.s_z_r.size() << endl;
 	return 0;
 }
 
